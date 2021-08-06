@@ -2,6 +2,8 @@
   --bg-color: #0c164f;
   --second-bg-color: #1d1135;
   --highlight-color: #ff1f89;
+  --link-color: #eb91be;
+  --link-color-hover: #91044b;
   --w-color: #f1fff6;
   --main-font: 'Viga', sans-serif;
   --second-font: 'Rubik', sans-serif;
@@ -63,4 +65,26 @@ background-color: var(--second-bg-color);
 border: 1px solid var(--highlight-color);
 border-radius: 0.8em;
 box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.card-image-container {
+  align-self: center;
+  overflow: hidden;
+}
+
+.card-image {
+  height: 250px;
+}
+
+p {
+  font-size: 1.25rem;
+  margin-bottom: 8px;
+}
+
+a {
+  color: var(--link-color);
+}
+
+a:hover {
+  color: var(--link-color-hover);
 }
